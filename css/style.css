@@ -1,0 +1,99 @@
+.principal{
+    color: rgba(128, 255, 0, 0.685);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body{
+    background-size: cover;
+
+}
+.son{
+    flex-grow: 1;
+    flex-basis: 200;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+p{
+    color: rgb(68, 255, 0);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:none;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu, tr, td{
+    display:flex;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+    border: 3px solid black;
+}
+
+form{
+    color: aqua;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(255, 60, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border:5px;
+    border-style: groove;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+
+ol, ul, dl{
+    background-color: azure;
+    background-size: 80px;
+    color: brown;
+    
+}
+
+form{
+    color:black;
+    display: flex;
+    margin:16px;
+    font-family: fantasy;
+    background-color:azure;
+    size: 876px;
+}
+
+input{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inicio{
+    border-style: groove;
+    border:2px;
+    background-color: beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
